@@ -1,0 +1,200 @@
+@media only screen and (max-width: 1000px) {
+    .first-half img {
+      height: 60%;
+      width: 60%;
+    }
+  
+    .second-half {
+      padding: 2em;
+    }
+  }
+
+  
+  
+  @media only screen and (max-width: 975px) {
+    .fhalf {
+      display: flex;
+      flex-direction: column;
+      width: max-content;
+    }
+  
+    .fhalf button {
+      width: 40%;
+    }
+  
+    .shalf img {
+      height: 62%;
+      width: 129%;
+      margin-left: 5em;
+    }
+  }
+  
+  @media only screen and (max-width: 912px) {
+    .nav-list {
+      display: flex;
+      flex-direction: column;
+
+    }
+  
+    .nav-list li {
+      margin: 0.3em 0em;
+    }
+  
+    .box-main {
+      margin-top: 2em;
+      transition: all 0.3s ease-out;
+    }
+  
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      height: 6vh;
+      align-items: center;
+    }
+  
+    .rightNav {
+      margin-left: 3em;
+    }
+  
+    .m-resp {
+      margin-top: 14em;
+    }
+  
+    .burger {
+      display: block;
+    }
+  
+    .v-nav {
+      display: none;
+    }
+  }
+  
+
+
+@media only screen and (max-width: 850px){
+    .second-half{
+      padding: 3em;
+    }
+  
+    .card img{
+      width: 28%;
+      height: 88%;
+    }
+  
+    #second-card img{
+      width: 28%;
+      height: 88%;
+    }
+  }
+  
+  @media only screen and (max-width: 760px){
+    contact-section{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .first-half{
+      display: none;
+    }
+    .second-half{
+      padding: 1em;
+      display: block;
+      margin: auto;
+      margin-top: 0.5em;
+    }
+  
+    .fhalf{
+      width: 100%;
+    }
+    .shalf{
+      display: none;
+    }
+    .shalf img{
+      display: none;
+    }
+  
+    .MyInput h4{
+      text-align: center;
+      width: 20em;
+      margin-left: 5em;
+    }
+  }
+  
+  @media only screen and (max-width: 726px){
+  
+  }
+  
+  @media only screen and (max-width: 653px){
+  #first-container{
+      width: 40.8em;
+  }
+
+  .v-nav {
+    display: none;
+  }
+  
+  #second-container{
+    padding: 0em 2em;
+    padding-top: 4em;
+    width: 36.8em;
+  }
+  
+  .third-container{
+    width: 40.8em;
+  }
+  
+  .fourth-container{
+    width: 39.8em;
+  }
+  
+  .fifth-container{
+    width: 40.8em;
+  }
+  .burger{
+    position: absolute;
+    left: 9%;
+    top: 32px;
+    display: flex;
+    flex-direction: column;
+    width: 36px;
+  }
+  #cross{
+    position: absolute;
+    left: 10%;
+    top: 32px;
+    
+    width: 36px;
+    font-size: 30px;
+    color: white;
+  }
+  
+  .card img {
+      height: 80%;
+      width: 31%;
+  }
+  #second-card img{
+    height: 80%;
+    width: 31%;
+  }
+  .card{
+    margin: 2em 0em;
+  }
+  .MyInput input{
+    width: 23em;
+  }
+  .contact-section{
+    width: 32em;
+  }
+
+  .line{
+    margin: 3px 3px;
+  }
+  }
+  
+  @media only screen and (max-width: 525px){
+    .card img {
+      height: 61%;
+      width: 38%;
+  }
+  
+  }
